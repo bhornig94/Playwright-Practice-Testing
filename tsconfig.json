@@ -1,0 +1,12 @@
+{
+  // Visit https://aka.ms/tsconfig to read more about this file
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "commonjs",
+    "baseUrl": ".",           // This means the project root
+    "paths": {
+      "@pages/*": ["lib/pages/*"] // This maps the shortcut to the folder
+    },
+    "types": ["node", "@playwright/test"]
+  }
+}
