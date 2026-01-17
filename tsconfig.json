@@ -5,7 +5,8 @@
     "module": "commonjs",
     "baseUrl": ".",           // This means the project root
     "paths": {
-      "@pages/*": ["lib/pages/*"] // This maps the shortcut to the folder
+      "@pages/*": ["lib/pages/*"], // This maps the shortcut to the folder
+      "@data/*": ["lib/dataFactory/*"]
     },
     "types": ["node", "@playwright/test"]
   }
